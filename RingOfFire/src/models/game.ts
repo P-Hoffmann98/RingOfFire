@@ -1,8 +1,8 @@
 export class Game {
-  public players: string[] = ['Ruffy', 'Nami', 'Zoro', 'Sanji'];
+  public players: string[] = [];
   public cardStack: string[] = [];
   public playedCards: string[] = [];
-  public currentPlayers: number = 0;
+  public currentPlayer: number = 0;
 
   constructor() {
     for (let i = 1; i < 14; i++) {
